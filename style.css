@@ -1,0 +1,50 @@
+:root {
+    --common-font: 'Roboto', sans-serif;
+    --common-font-size: 1.2rem;
+
+    --sidebar-bg-color: #1992D4;
+    --sidebar-nav-color: #fff;
+    --nav-btn-color: var(--sidebar-bg-color);
+
+    --main-bg-color: #fff;
+    --main-font-color: #030304;
+
+    --search-bg-color: var(--main-bg-color);
+    /* font color for projects, header and trend/annon boxes */
+    --accent-bg-color: #E2E8F0;
+    --accent-font-color: #ffffff;
+
+    --annon-line-color: #ffffc7;
+
+    --project-border-color: #ffffc7;
+}
+
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--sidebar-bg-color);
+    padding-top: 20px;
+    color: var(--sidebar-nav-color);
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+
+    .title {
+        font-size: 2rem;
+    }
+
+    ul {
+        margin: 30px 0;
+        li {
+            i {
+                margin-right: 10px;
+            }
+            margin: 1rem;
+        }
+    }
+}
