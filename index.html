@@ -17,13 +17,15 @@
 	<title >Odin - Admin Dashboard</title >
 </head >
 <body >
+<div class='main_container'>
+
 	<div class='sidebar'>
 		<div class='title'>
 			<i class="bi bi-grid-1x2-fill"></i>
 			Dashboard
 		</div>
 		<ul class='nav'>
-			<li class='nav_item' >
+			<li class='nav_item active' >
 				<i class="bi bi-house"></i>
 				Home
 			</li>
@@ -63,7 +65,205 @@
 			</li >
 		</ul>
 	</div>
-	<header></header>
+	<header class='header' >
+		<div class='search_container'>
+			<div class='search_bar'>
+				<label for='search'>
+					<i class="bi bi-search"></i>
+				</label >
+				<input type='text'
+				       name='search'
+				       id='search'
+				>
+			</div>
+			<div class='user_notifications'>
+				<div class='alert_icon'>
+					<i class="bi bi-bell"></i>
+					<i class="bi bi-bell-fill"></i>
+				</div>
+				<div class='user_picture'>
+					<img src='https://i.pravatar.cc/50'
+					     alt='profile picture'
+					>
+				</div>
+				<div class='user_name'>
+					<p>Morgan Oakley</p>
+				</div>
+			</div>
+		</div>
+		<div class='user_container'>
+			<div class='user_presentation'>
+				<div class='user_picture'>
+					<img src='https://i.pravatar.cc/50'
+					     alt='profile picture'
+					>
+				</div>
+				<div class='user'>
+					<p>Hi there,</p>
+					<h3>Morgan Oakley (@morgan)</h3>
+				</div>
 
+			</div>
+			<div class='user_actions'>
+				<button class='btn' >New</button >
+				<button class='btn' >Upload</button >
+				<button class='btn' >Share</button >
+			</div>
+		</div>
+	</header>
+	<main class='main' >
+		<div class='main_section'>
+			<div class='title'>Your Projects</div>
+			<div class='main_container'>
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Super Cool Project</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Less Cool Project</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Impossible App</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Easy Peasy App</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Ad Blocker</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+
+				<div class='card'>
+					<div class='content'>
+						<h4 class='card_title'>Money Maker</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloremque facilis itaque minus natus nisi, nulla odio pariatur ut voluptate? Eveniet id laboriosam numquam?</p>
+					</div>
+					<div class='actions'>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-eye"></i>
+						<i class='bi bi-share' ></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='main_sidebar'>
+			<div class='announcements'>
+				<div class='title'>Announcements</div>
+				<div class='container announcement_container'>
+					<div class='card'>
+						<h3 class='card_title'>Site Maintenance</h3>
+						<p class='card_content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi corporis cum dolor, doloremque doloribus iste magnam praesentium quibusdam quis reprehenderit totam veniam, vitae voluptate?</p>
+					</div>
+					<hr >
+					<div class='card'>
+						<h3 class='card_title'>Community Share Day</h3>
+						<p class='card_content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi corporis cum dolor, doloremque doloribus iste magnam praesentium quibusdam quis reprehenderit totam veniam, vitae voluptate?</p>
+					</div>
+					<hr >
+					<div class='card'>
+						<h3 class='card_title'>Updated Privacy Policy</h3>
+						<p class='card_content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi corporis cum dolor, doloremque doloribus iste magnam praesentium quibusdam quis reprehenderit totam veniam, vitae voluptate?</p>
+					</div>
+				</div>
+			</div>
+			<div class='trending'>
+				<div class='title'>Trending</div>
+				<div class='container trending_container'>
+					<div class='card'>
+						<img src='https://avatar.iran.liara.run/public/35'
+						     alt='profile avatar'
+						>
+						<div class='content'>
+							<div class='pseudo'>@tegan</div>
+							<div class='comment'>
+								Lorem ipsum amet.
+							</div>
+						</div>
+					</div>
+
+					<div class='card'>
+						<img src='https://i.pravatar.cc/50'
+						     alt='profile avatar'
+						>
+						<div class='content'>
+							<div class='pseudo'>@morgan</div>
+							<div class='comment'>
+								Lorem ipsum amet.
+							</div>
+						</div>
+					</div>
+
+					<div class='card'>
+						<img src='https://avatar.iran.liara.run/public/42'
+						     alt='profile avatar'
+						>
+						<div class='content'>
+							<div class='pseudo'>@kendall</div>
+							<div class='comment'>
+								Lorem ipsum amet.
+							</div>
+						</div>
+					</div>
+
+					<div class='card'>
+						<img src='https://avatar.iran.liara.run/public/18'
+						     alt='profile avatar'
+						>
+						<div class='content'>
+							<div class='pseudo'>@alex</div>
+							<div class='comment'>
+								Lorem ipsum amet.
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</main>
+</div>
 </body >
 </html >
