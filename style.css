@@ -44,6 +44,7 @@ body {
     padding: 30px 30px;
 
     .title {
+        display: flex;
         color: var(--accent-font-color);
         font-size: 2rem;
     }
@@ -54,6 +55,7 @@ body {
             cursor: pointer;
             margin: 1rem;
             transition: color .2s ease-in-out;
+            display: flex;
 
 
             &.active {
@@ -64,7 +66,7 @@ body {
                 color: var(--accent-font-color)
             }
 
-            i {
+            span {
                 margin-right: 10px;
             }
         }
@@ -111,15 +113,15 @@ body {
             justify-content: space-evenly;
 
             .alert_icon {
-                i {
-                    &.bi-bell-fill { display: none; }
-                    &.bi-bell { display: block; }
+                span {
+                    &.mdi-bell-ring-outline { display: none; }
+                    &.mdi-bell-outline { display: block; }
                 }
 
                 &.active {
-                    i {
-                        &.bi-bell-fill { display: block; color: red;}
-                        &.bi-bell { display: none; }
+                    span {
+                        &.mdi-bell-ring-outline { display: block; color: red;}
+                        &.mdi-bell-outline { display: none; }
                     }
                 }
             }
@@ -241,7 +243,7 @@ body {
                 justify-content: flex-end;
                 gap: 15px;
                 
-                i {
+                span {
                     cursor: pointer;
                     background: transparent;
                     padding: 10px;
